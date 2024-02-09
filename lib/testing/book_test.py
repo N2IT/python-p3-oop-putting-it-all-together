@@ -31,3 +31,5 @@ class TestBook:
         book.turn_page()
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "Flipping the page...wow, you read fast!\n")
+
+book = Book("hey its a book", 200)
